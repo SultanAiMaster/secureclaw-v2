@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #FFFFFE;
+    --foreground: #111827;
+    --primary: #2196F3;
+    --primary-light: #45A04A;
+    --secondary: #1E88E5;
+    --accent: #F472B6;
+    --muted: #64748B;
+    --light: #8BACCC;
+    --dark: #0F172A;
+    --lightest: #F1F5F9;
+    --success: #059669;
+    --warning: #D97706;
+    --error: #DC2626;
+    --border: #E5E7EB;
+    --input: #F3F4F6;
+    --card: #FFFFFF;
+    --card-foreground: #111827;
+    --muted-foreground: #64748B;
+  }
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  body {
+    color: var(--foreground);
+    background: var(--background);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 rounded-lg font-semibold text-white transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-50;
+  }
+
+  .btn-outline {
+    @apply px-6 py-3 rounded-lg font-semibold transition-all hover:scale-[1.02] active:scale-95 border-2 border-primary;
+  }
+
+  .card {
+    @apply rounded-2xl bg-white border border-gray-200 p-6 shadow-lg;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .scroll-mt-8 {
+    scroll-margin-top: 8rem;
+    scroll-behavior: smooth;
+  }
+}
