@@ -1,0 +1,26 @@
+# Allow all bots
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://beuniqueshop.in/sitemap.xml
+
+# Crawl-delay (optional, prevents overloading)
+Crawl-delay: 1
+
+# Disallow certain paths (optional)
+Disallow: /api/
+Disallow: /_next/
+
+# Social media bots
+User-agent: Twitterbot
+Allow: *
+
+User-agent: FacebookExternalHit
+Allow: *
+
+User-agent: LinkedInBot
+Allow: *
+
+User-agent: Googlebot
+Allow: /

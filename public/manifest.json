@@ -1,0 +1,24 @@
+{
+  "name": "SecureClaw - Deploy AI Agents Faster",
+  "short_name": "SecureClaw",
+  "description": "Deploy secure AI agents in 60 seconds with OpenClaw + NemoClaw security. Start now - $49/month.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2196F3",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ]
+}
